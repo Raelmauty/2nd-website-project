@@ -1,0 +1,96 @@
+*{
+    background-color: rgb(196, 240, 255);
+    text-align: center;
+    box-sizing:border-box;
+    padding:10px;
+
+ }
+  
+ .firstpage{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+ }
+  
+ 
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-color:rgb(89, 183, 230);
+    border-style: solid;
+    border-width: 08px;
+
+}
+  
+ h1{ 
+    color: rgb(127, 4, 39);
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+ h2{
+    color: rgb(14, 9, 102);
+    font-size: 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+ h3{
+    color: rgb(14, 9, 102);
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+  .parks {
+    border-color: blue;
+    border-width: 10px;
+    border-style: double;
+    text-align: center;  
+   
+  }
+
+  
+
+  .beaches {
+    border-color: blue;
+    border-width: 10px;
+    border-style: double;
+    align-items: center;
+
+   
+}
+ p {
+    color:rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+ }
+  
+ .center{
+    text-align: center;}
+  
+ .nav{
+    display:flex;
+    background-color:blue;
+    text-align: center;
+    justify-content: space-evenly;
+    
+ }
+  
+ .nav a {
+    background-color: aqua;
+    text-decoration: none;
+ }
+
+ .nav a:hover {
+    color:rgb(21, 215, 163);
+    background-color: rgb(226, 39, 183);
+  
+ }
+  
+ img{
+    width:40%;
+    align-items: center;
+ }
+ 
+
+
